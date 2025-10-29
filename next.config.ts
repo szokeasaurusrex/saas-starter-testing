@@ -6,7 +6,48 @@ const nextConfig: NextConfig = {
     ppr: true,
     clientSegmentCache: true,
     nodeMiddleware: true
-  }
+  },
+  // Configuration for generating large sourcemaps
+  productionBrowserSourceMaps: true,
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      // Increase chunk size limits to create larger bundles
+      config.performance = {
+        ...config.performance,
+        maxAssetSize: 100000000, // 100MB
+        maxEntrypointSize: 100000000, // 100MB
+      };
+      
+      // Minimize code splitting to create larger chunks
+      config.optimization = {
+        ...config.optimization,
+        splitChunks: {
+          chunks: 'all',
+          cacheGroups: {
+            default: false,
+            vendors: false,
+            // Create one large vendor bundle
+            lib: {
+              test: /[\\/]node_modules[\\/]/,
+              name: 'vendors',
+              priority: 10,
+              reuseExistingChunk: true,
+            },
+            // Create one large benchmark bundle
+            benchmark: {
+              test: /[\\/]components[\\/]benchmark[\\/]/,
+              name: 'benchmark',
+              priority: 20,
+              reuseExistingChunk: true,
+            },
+          },
+          maxSize: 50000000, // 50MB max chunk size
+        },
+      };
+    }
+    
+    return config;
+  },
 };
 
 export default withSentryConfig(nextConfig, {
