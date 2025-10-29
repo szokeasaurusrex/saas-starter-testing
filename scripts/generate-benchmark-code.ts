@@ -3,8 +3,8 @@ import path from 'path';
 
 const BENCHMARK_DIR = path.join(process.cwd(), 'components', 'benchmark');
 const GENERATED_DIR = path.join(BENCHMARK_DIR, 'generated');
-const NUM_FILES = 150; // Generate 150 files (reduced from 400 for buildability)
-const LINES_PER_FILE = 3000; // ~3000 lines per file
+const NUM_FILES = 800; // Generate 800 files for maximum sourcemap size
+const LINES_PER_FILE = 4000; // ~4000 lines per file
 
 // List of all large dependencies we'll import
 const LARGE_DEPS = [
@@ -61,7 +61,7 @@ function generateUtilityFunctions(fileIndex: number): string {
   let code = '';
   
   // Generate functions using various libraries
-  for (let i = 0; i < 35; i++) {
+  for (let i = 0; i < 50; i++) {
     code += `
 export function utilityFunction${fileIndex}_${i}(input: any): any {
   const _ = require('lodash');
@@ -72,7 +72,7 @@ export function utilityFunction${fileIndex}_${i}(input: any): any {
   
   const step1 = _.cloneDeep(input);
   const step2 = _.merge(step1, { additional: 'data', index: ${i} });
-  const step3 = R.map(x => x * 2, step2.values || []);
+  const step3 = R.map((x: any) => x * 2, step2.values || []);
   const step4 = moment().add(${i}, 'days').format('YYYY-MM-DD');
   const step5 = math.sqrt(${i + 1});
   
@@ -94,7 +94,7 @@ export function utilityFunction${fileIndex}_${i}(input: any): any {
 function generateReactComponents(fileIndex: number): string {
   let code = '';
   
-  for (let i = 0; i < 18; i++) {
+  for (let i = 0; i < 25; i++) {
     code += `
 export const BenchmarkComponent${fileIndex}_${i}: React.FC<{data: any}> = ({ data }) => {
   const [state${i}, setState${i}] = React.useState<any>(null);
@@ -187,7 +187,7 @@ export const VALIDATION_RULES_${fileIndex} = {
 function generateStateMachines(fileIndex: number): string {
   let code = '';
   
-  for (let i = 0; i < 8; i++) {
+  for (let i = 0; i < 12; i++) {
     code += `
 export class StateMachine${fileIndex}_${i} {
   private state: string = 'initial';
@@ -255,7 +255,7 @@ export class StateMachine${fileIndex}_${i} {
 function generateDataTransformers(fileIndex: number): string {
   let code = '';
   
-  for (let i = 0; i < 15; i++) {
+  for (let i = 0; i < 20; i++) {
     code += `
 export class DataTransformer${fileIndex}_${i} {
   private transformations: any[] = [];
@@ -265,8 +265,8 @@ export class DataTransformer${fileIndex}_${i} {
     const R = require('ramda');
     
     this.transformations = [
-      { name: 'normalize', fn: (data: any) => _.map(data, item => _.mapValues(item, val => typeof val === 'number' ? val / 100 : val)) },
-      { name: 'filter', fn: (data: any) => _.filter(data, item => item.value > ${i}) },
+      { name: 'normalize', fn: (data: any) => _.map(data, (item: any) => _.mapValues(item, (val: any) => typeof val === 'number' ? val / 100 : val)) },
+      { name: 'filter', fn: (data: any) => _.filter(data, (item: any) => item.value > ${i}) },
       { name: 'sort', fn: (data: any) => _.sortBy(data, 'timestamp') },
       { name: 'group', fn: (data: any) => _.groupBy(data, 'category') },
       { name: 'map', fn: (data: any) => R.map((item: any) => ({ ...item, transformed: true }), data) },
@@ -299,7 +299,7 @@ function generateFileContent(fileIndex: number): string {
 // This file is generated for sourcemap benchmarking purposes
 import React from 'react';
 
-${generateTypeScriptInterfaces(50, fileIndex)}
+${generateTypeScriptInterfaces(80, fileIndex)}
 
 ${generateConstants(fileIndex)}
 
@@ -316,10 +316,11 @@ export const BENCHMARK_FILE_${fileIndex}_METADATA = {
   fileIndex: ${fileIndex},
   generatedAt: new Date().toISOString(),
   version: '1.0.0',
-  components: ${18},
-  utilities: ${35},
-  stateMachines: ${8},
-  transformers: ${15},
+  interfaces: ${80},
+  components: ${25},
+  utilities: ${50},
+  stateMachines: ${12},
+  transformers: ${20},
 };
 `;
   
