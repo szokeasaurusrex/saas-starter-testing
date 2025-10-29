@@ -3,8 +3,8 @@ import path from 'path';
 
 const BENCHMARK_DIR = path.join(process.cwd(), 'components', 'benchmark');
 const GENERATED_DIR = path.join(BENCHMARK_DIR, 'generated');
-const NUM_FILES = 400; // Generate 400 files
-const LINES_PER_FILE = 2500; // ~2500 lines per file
+const NUM_FILES = 150; // Generate 150 files (reduced from 400 for buildability)
+const LINES_PER_FILE = 3000; // ~3000 lines per file
 
 // List of all large dependencies we'll import
 const LARGE_DEPS = [
@@ -61,7 +61,7 @@ function generateUtilityFunctions(fileIndex: number): string {
   let code = '';
   
   // Generate functions using various libraries
-  for (let i = 0; i < 25; i++) {
+  for (let i = 0; i < 35; i++) {
     code += `
 export function utilityFunction${fileIndex}_${i}(input: any): any {
   const _ = require('lodash');
@@ -94,7 +94,7 @@ export function utilityFunction${fileIndex}_${i}(input: any): any {
 function generateReactComponents(fileIndex: number): string {
   let code = '';
   
-  for (let i = 0; i < 12; i++) {
+  for (let i = 0; i < 18; i++) {
     code += `
 export const BenchmarkComponent${fileIndex}_${i}: React.FC<{data: any}> = ({ data }) => {
   const [state${i}, setState${i}] = React.useState<any>(null);
@@ -316,8 +316,8 @@ export const BENCHMARK_FILE_${fileIndex}_METADATA = {
   fileIndex: ${fileIndex},
   generatedAt: new Date().toISOString(),
   version: '1.0.0',
-  components: ${12},
-  utilities: ${25},
+  components: ${18},
+  utilities: ${35},
   stateMachines: ${8},
   transformers: ${15},
 };

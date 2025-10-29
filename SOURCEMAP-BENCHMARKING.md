@@ -5,17 +5,20 @@ This project has been configured to generate very large sourcemaps for benchmark
 ## 📊 Current Setup
 
 ### Generated Code
+
 - **400 benchmark files** in `components/benchmark/generated/`
 - **~2,500 lines per file** (total: ~1.47 million lines)
 - **41MB of source code** in benchmark directory
 - **10 batch index files** + 1 main index
 
 ### Dependencies
+
 - **52 large npm packages** added (3D libraries, UI frameworks, utilities, etc.)
 - **1.8GB in node_modules**
 - **672 total packages** installed
 
 ### Key Libraries Added
+
 - **3D/Graphics**: three, babylonjs, d3, echarts, plotly.js, vis-network
 - **UI Libraries**: @mui/material, antd, semantic-ui-react, @chakra-ui/react, @blueprintjs/core
 - **Utilities**: lodash, ramda, rxjs, moment, date-fns, mathjs, immutable
@@ -31,6 +34,7 @@ pnpm build
 \`\`\`
 
 This will:
+
 1. Bundle all the benchmark code and dependencies
 2. Generate production sourcemaps (enabled via \`productionBrowserSourceMaps: true\`)
 3. Create large chunks in \`.next/static/chunks/\`
@@ -41,17 +45,21 @@ This will:
 After building, you should see:
 
 ### Sourcemap Files
+
 Located in \`.next/static/chunks/\`:
+
 - \`vendors.js\` + \`vendors.js.map\` - Large vendor bundle from node_modules
 - \`benchmark.js\` + \`benchmark.js.map\` - All generated benchmark code
 - Additional app chunks with their sourcemaps
 
 ### Estimated Sizes
+
 - **Minified JS bundles**: 100-200MB (estimated)
 - **Sourcemap files**: 300-800MB (estimated)
 - **Total combined**: 400MB-1GB+ (depending on actual bundling)
 
 The exact size will vary based on:
+
 - Webpack's optimization and tree-shaking
 - How much of each library gets bundled
 - Source map format and detail level
@@ -59,6 +67,7 @@ The exact size will vary based on:
 ## 🔧 Configuration
 
 ### Next.js Config (`next.config.ts`)
+
 - \`productionBrowserSourceMaps: true\` - Enables sourcemap generation
 - Custom webpack config with:
   - Increased chunk size limits (100MB max)
@@ -66,7 +75,9 @@ The exact size will vary based on:
   - Separate cache groups for vendors and benchmark code
 
 ### Integration
+
 The benchmark code is loaded via \`BenchmarkLoader\` component in the main page:
+
 - Only loads in production builds
 - Uses dynamic imports to ensure bundling
 - Doesn't affect development mode
@@ -76,15 +87,15 @@ The benchmark code is loaded via \`BenchmarkLoader\` component in the main page:
 \`\`\`
 components/benchmark/
 ├── generated/
-│   ├── benchmark-0.tsx    (2500+ lines)
-│   ├── benchmark-1.tsx    (2500+ lines)
-│   ├── ...
-│   └── benchmark-399.tsx  (2500+ lines)
-├── batch-0.ts  (exports benchmarks 0-39)
-├── batch-1.ts  (exports benchmarks 40-79)
+│ ├── benchmark-0.tsx (2500+ lines)
+│ ├── benchmark-1.tsx (2500+ lines)
+│ ├── ...
+│ └── benchmark-399.tsx (2500+ lines)
+├── batch-0.ts (exports benchmarks 0-39)
+├── batch-1.ts (exports benchmarks 40-79)
 ├── ...
-├── batch-9.ts  (exports benchmarks 360-399)
-└── index.ts    (main export)
+├── batch-9.ts (exports benchmarks 360-399)
+└── index.ts (main export)
 \`\`\`
 
 ## 🧪 Regenerating Benchmark Code
@@ -102,14 +113,19 @@ To regenerate the benchmark files with different parameters:
 To remove all benchmark code and dependencies:
 
 \`\`\`bash
+
 # Remove benchmark directory
+
 rm -rf components/benchmark
 
 # Remove benchmark loader
+
 rm components/benchmark-loader.tsx
 
 # Remove dependencies from package.json (revert to original)
+
 # Then run:
+
 pnpm install
 \`\`\`
 
@@ -126,4 +142,3 @@ pnpm install
 - All code imports actual dependencies to ensure they're included in the bundle
 - Tree-shaking is minimized through strategic code patterns
 - The code doesn't affect development mode builds
-

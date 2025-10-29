@@ -1106,106 +1106,106 @@ export interface DataModel49 {
 
 
 export const LARGE_CONSTANT_ARRAY_35 = [
-  { id: 0, value: 0.40170951621034967, label: "Item 0", metadata: { fileIndex: 35, itemIndex: 0 } },
-  { id: 1, value: 0.7512694076030575, label: "Item 1", metadata: { fileIndex: 35, itemIndex: 1 } },
-  { id: 2, value: 0.794064811319642, label: "Item 2", metadata: { fileIndex: 35, itemIndex: 2 } },
-  { id: 3, value: 0.33252970790689296, label: "Item 3", metadata: { fileIndex: 35, itemIndex: 3 } },
-  { id: 4, value: 0.12856528095760367, label: "Item 4", metadata: { fileIndex: 35, itemIndex: 4 } },
-  { id: 5, value: 0.3119786056138547, label: "Item 5", metadata: { fileIndex: 35, itemIndex: 5 } },
-  { id: 6, value: 0.7766635017018175, label: "Item 6", metadata: { fileIndex: 35, itemIndex: 6 } },
-  { id: 7, value: 0.5785712139109311, label: "Item 7", metadata: { fileIndex: 35, itemIndex: 7 } },
-  { id: 8, value: 0.8848721609838839, label: "Item 8", metadata: { fileIndex: 35, itemIndex: 8 } },
-  { id: 9, value: 0.3526482791000265, label: "Item 9", metadata: { fileIndex: 35, itemIndex: 9 } },
-  { id: 10, value: 0.9207253844745644, label: "Item 10", metadata: { fileIndex: 35, itemIndex: 10 } },
-  { id: 11, value: 0.375189998186525, label: "Item 11", metadata: { fileIndex: 35, itemIndex: 11 } },
-  { id: 12, value: 0.7543323387570973, label: "Item 12", metadata: { fileIndex: 35, itemIndex: 12 } },
-  { id: 13, value: 0.9063573223843882, label: "Item 13", metadata: { fileIndex: 35, itemIndex: 13 } },
-  { id: 14, value: 0.24995089642510915, label: "Item 14", metadata: { fileIndex: 35, itemIndex: 14 } },
-  { id: 15, value: 0.5404757697382787, label: "Item 15", metadata: { fileIndex: 35, itemIndex: 15 } },
-  { id: 16, value: 0.3587539114365066, label: "Item 16", metadata: { fileIndex: 35, itemIndex: 16 } },
-  { id: 17, value: 0.0010878824631821438, label: "Item 17", metadata: { fileIndex: 35, itemIndex: 17 } },
-  { id: 18, value: 0.015336554725230656, label: "Item 18", metadata: { fileIndex: 35, itemIndex: 18 } },
-  { id: 19, value: 0.7090646876878399, label: "Item 19", metadata: { fileIndex: 35, itemIndex: 19 } },
-  { id: 20, value: 0.9732882274774697, label: "Item 20", metadata: { fileIndex: 35, itemIndex: 20 } },
-  { id: 21, value: 0.2885274398764439, label: "Item 21", metadata: { fileIndex: 35, itemIndex: 21 } },
-  { id: 22, value: 0.8066493861648454, label: "Item 22", metadata: { fileIndex: 35, itemIndex: 22 } },
-  { id: 23, value: 0.0374981829759613, label: "Item 23", metadata: { fileIndex: 35, itemIndex: 23 } },
-  { id: 24, value: 0.6419289574496265, label: "Item 24", metadata: { fileIndex: 35, itemIndex: 24 } },
-  { id: 25, value: 0.074280350833422, label: "Item 25", metadata: { fileIndex: 35, itemIndex: 25 } },
-  { id: 26, value: 0.6259658445749936, label: "Item 26", metadata: { fileIndex: 35, itemIndex: 26 } },
-  { id: 27, value: 0.9495309890179042, label: "Item 27", metadata: { fileIndex: 35, itemIndex: 27 } },
-  { id: 28, value: 0.43188646330065317, label: "Item 28", metadata: { fileIndex: 35, itemIndex: 28 } },
-  { id: 29, value: 0.584751729021137, label: "Item 29", metadata: { fileIndex: 35, itemIndex: 29 } },
-  { id: 30, value: 0.9952347306054876, label: "Item 30", metadata: { fileIndex: 35, itemIndex: 30 } },
-  { id: 31, value: 0.7886645358814863, label: "Item 31", metadata: { fileIndex: 35, itemIndex: 31 } },
-  { id: 32, value: 0.76604830623905, label: "Item 32", metadata: { fileIndex: 35, itemIndex: 32 } },
-  { id: 33, value: 0.6348059994578903, label: "Item 33", metadata: { fileIndex: 35, itemIndex: 33 } },
-  { id: 34, value: 0.33937480322572156, label: "Item 34", metadata: { fileIndex: 35, itemIndex: 34 } },
-  { id: 35, value: 0.2154912665900255, label: "Item 35", metadata: { fileIndex: 35, itemIndex: 35 } },
-  { id: 36, value: 0.2906044925004305, label: "Item 36", metadata: { fileIndex: 35, itemIndex: 36 } },
-  { id: 37, value: 0.34246482462294514, label: "Item 37", metadata: { fileIndex: 35, itemIndex: 37 } },
-  { id: 38, value: 0.21548547357958103, label: "Item 38", metadata: { fileIndex: 35, itemIndex: 38 } },
-  { id: 39, value: 0.81232043330558, label: "Item 39", metadata: { fileIndex: 35, itemIndex: 39 } },
-  { id: 40, value: 0.7607279095706838, label: "Item 40", metadata: { fileIndex: 35, itemIndex: 40 } },
-  { id: 41, value: 0.1873890323105909, label: "Item 41", metadata: { fileIndex: 35, itemIndex: 41 } },
-  { id: 42, value: 0.37432309360246996, label: "Item 42", metadata: { fileIndex: 35, itemIndex: 42 } },
-  { id: 43, value: 0.5680612182610849, label: "Item 43", metadata: { fileIndex: 35, itemIndex: 43 } },
-  { id: 44, value: 0.46162625801402624, label: "Item 44", metadata: { fileIndex: 35, itemIndex: 44 } },
-  { id: 45, value: 0.6545527283194696, label: "Item 45", metadata: { fileIndex: 35, itemIndex: 45 } },
-  { id: 46, value: 0.49937661663473665, label: "Item 46", metadata: { fileIndex: 35, itemIndex: 46 } },
-  { id: 47, value: 0.7487351186184068, label: "Item 47", metadata: { fileIndex: 35, itemIndex: 47 } },
-  { id: 48, value: 0.17984973566670948, label: "Item 48", metadata: { fileIndex: 35, itemIndex: 48 } },
-  { id: 49, value: 0.7261846252964659, label: "Item 49", metadata: { fileIndex: 35, itemIndex: 49 } },
-  { id: 50, value: 0.022366830300622365, label: "Item 50", metadata: { fileIndex: 35, itemIndex: 50 } },
-  { id: 51, value: 0.45837924304738054, label: "Item 51", metadata: { fileIndex: 35, itemIndex: 51 } },
-  { id: 52, value: 0.8657897325572286, label: "Item 52", metadata: { fileIndex: 35, itemIndex: 52 } },
-  { id: 53, value: 0.13629848235009634, label: "Item 53", metadata: { fileIndex: 35, itemIndex: 53 } },
-  { id: 54, value: 0.5686581650879476, label: "Item 54", metadata: { fileIndex: 35, itemIndex: 54 } },
-  { id: 55, value: 0.2789149228798331, label: "Item 55", metadata: { fileIndex: 35, itemIndex: 55 } },
-  { id: 56, value: 0.12029585626213035, label: "Item 56", metadata: { fileIndex: 35, itemIndex: 56 } },
-  { id: 57, value: 0.2777099752373613, label: "Item 57", metadata: { fileIndex: 35, itemIndex: 57 } },
-  { id: 58, value: 0.9936618393749519, label: "Item 58", metadata: { fileIndex: 35, itemIndex: 58 } },
-  { id: 59, value: 0.8005374025247469, label: "Item 59", metadata: { fileIndex: 35, itemIndex: 59 } },
-  { id: 60, value: 0.4481003583172647, label: "Item 60", metadata: { fileIndex: 35, itemIndex: 60 } },
-  { id: 61, value: 0.4303644673977014, label: "Item 61", metadata: { fileIndex: 35, itemIndex: 61 } },
-  { id: 62, value: 0.891021128982306, label: "Item 62", metadata: { fileIndex: 35, itemIndex: 62 } },
-  { id: 63, value: 0.06980033028868782, label: "Item 63", metadata: { fileIndex: 35, itemIndex: 63 } },
-  { id: 64, value: 0.36543591706655887, label: "Item 64", metadata: { fileIndex: 35, itemIndex: 64 } },
-  { id: 65, value: 0.6112038866352234, label: "Item 65", metadata: { fileIndex: 35, itemIndex: 65 } },
-  { id: 66, value: 0.4783790984902463, label: "Item 66", metadata: { fileIndex: 35, itemIndex: 66 } },
-  { id: 67, value: 0.7039729739612384, label: "Item 67", metadata: { fileIndex: 35, itemIndex: 67 } },
-  { id: 68, value: 0.3268895884683749, label: "Item 68", metadata: { fileIndex: 35, itemIndex: 68 } },
-  { id: 69, value: 0.9625796163226594, label: "Item 69", metadata: { fileIndex: 35, itemIndex: 69 } },
-  { id: 70, value: 0.6120987206054855, label: "Item 70", metadata: { fileIndex: 35, itemIndex: 70 } },
-  { id: 71, value: 0.36800470432471455, label: "Item 71", metadata: { fileIndex: 35, itemIndex: 71 } },
-  { id: 72, value: 0.005343289975391352, label: "Item 72", metadata: { fileIndex: 35, itemIndex: 72 } },
-  { id: 73, value: 0.03240160230954059, label: "Item 73", metadata: { fileIndex: 35, itemIndex: 73 } },
-  { id: 74, value: 0.3944492852023236, label: "Item 74", metadata: { fileIndex: 35, itemIndex: 74 } },
-  { id: 75, value: 0.21201245252379763, label: "Item 75", metadata: { fileIndex: 35, itemIndex: 75 } },
-  { id: 76, value: 0.6289114894983416, label: "Item 76", metadata: { fileIndex: 35, itemIndex: 76 } },
-  { id: 77, value: 0.5797864213428514, label: "Item 77", metadata: { fileIndex: 35, itemIndex: 77 } },
-  { id: 78, value: 0.8853959849909703, label: "Item 78", metadata: { fileIndex: 35, itemIndex: 78 } },
-  { id: 79, value: 0.5124998045916491, label: "Item 79", metadata: { fileIndex: 35, itemIndex: 79 } },
-  { id: 80, value: 0.09956019786220582, label: "Item 80", metadata: { fileIndex: 35, itemIndex: 80 } },
-  { id: 81, value: 0.23885138678265205, label: "Item 81", metadata: { fileIndex: 35, itemIndex: 81 } },
-  { id: 82, value: 0.22969688409082512, label: "Item 82", metadata: { fileIndex: 35, itemIndex: 82 } },
-  { id: 83, value: 0.6263333148078072, label: "Item 83", metadata: { fileIndex: 35, itemIndex: 83 } },
-  { id: 84, value: 0.8614931585608212, label: "Item 84", metadata: { fileIndex: 35, itemIndex: 84 } },
-  { id: 85, value: 0.33306040627056044, label: "Item 85", metadata: { fileIndex: 35, itemIndex: 85 } },
-  { id: 86, value: 0.8255911295129217, label: "Item 86", metadata: { fileIndex: 35, itemIndex: 86 } },
-  { id: 87, value: 0.40457449924895283, label: "Item 87", metadata: { fileIndex: 35, itemIndex: 87 } },
-  { id: 88, value: 0.05352362686268797, label: "Item 88", metadata: { fileIndex: 35, itemIndex: 88 } },
-  { id: 89, value: 0.3032369797607395, label: "Item 89", metadata: { fileIndex: 35, itemIndex: 89 } },
-  { id: 90, value: 0.9703150654494856, label: "Item 90", metadata: { fileIndex: 35, itemIndex: 90 } },
-  { id: 91, value: 0.8254950524235423, label: "Item 91", metadata: { fileIndex: 35, itemIndex: 91 } },
-  { id: 92, value: 0.6352800771502913, label: "Item 92", metadata: { fileIndex: 35, itemIndex: 92 } },
-  { id: 93, value: 0.4036496983166922, label: "Item 93", metadata: { fileIndex: 35, itemIndex: 93 } },
-  { id: 94, value: 0.9164569598664194, label: "Item 94", metadata: { fileIndex: 35, itemIndex: 94 } },
-  { id: 95, value: 0.9796004849743287, label: "Item 95", metadata: { fileIndex: 35, itemIndex: 95 } },
-  { id: 96, value: 0.3724248777375594, label: "Item 96", metadata: { fileIndex: 35, itemIndex: 96 } },
-  { id: 97, value: 0.9765376282996958, label: "Item 97", metadata: { fileIndex: 35, itemIndex: 97 } },
-  { id: 98, value: 0.4775315358250576, label: "Item 98", metadata: { fileIndex: 35, itemIndex: 98 } },
-  { id: 99, value: 0.37747250655154985, label: "Item 99", metadata: { fileIndex: 35, itemIndex: 99 } },
+  { id: 0, value: 0.11294856752167837, label: "Item 0", metadata: { fileIndex: 35, itemIndex: 0 } },
+  { id: 1, value: 0.39132779653770156, label: "Item 1", metadata: { fileIndex: 35, itemIndex: 1 } },
+  { id: 2, value: 0.3972973960649726, label: "Item 2", metadata: { fileIndex: 35, itemIndex: 2 } },
+  { id: 3, value: 0.17946948689302844, label: "Item 3", metadata: { fileIndex: 35, itemIndex: 3 } },
+  { id: 4, value: 0.33894003857878685, label: "Item 4", metadata: { fileIndex: 35, itemIndex: 4 } },
+  { id: 5, value: 0.6630060461167082, label: "Item 5", metadata: { fileIndex: 35, itemIndex: 5 } },
+  { id: 6, value: 0.4644500657892159, label: "Item 6", metadata: { fileIndex: 35, itemIndex: 6 } },
+  { id: 7, value: 0.49761767696918646, label: "Item 7", metadata: { fileIndex: 35, itemIndex: 7 } },
+  { id: 8, value: 0.8556324031948261, label: "Item 8", metadata: { fileIndex: 35, itemIndex: 8 } },
+  { id: 9, value: 0.11655875749420064, label: "Item 9", metadata: { fileIndex: 35, itemIndex: 9 } },
+  { id: 10, value: 0.07223949797179374, label: "Item 10", metadata: { fileIndex: 35, itemIndex: 10 } },
+  { id: 11, value: 0.5529046664663329, label: "Item 11", metadata: { fileIndex: 35, itemIndex: 11 } },
+  { id: 12, value: 0.15389844429009258, label: "Item 12", metadata: { fileIndex: 35, itemIndex: 12 } },
+  { id: 13, value: 0.3895264609429787, label: "Item 13", metadata: { fileIndex: 35, itemIndex: 13 } },
+  { id: 14, value: 0.9108690833444923, label: "Item 14", metadata: { fileIndex: 35, itemIndex: 14 } },
+  { id: 15, value: 0.5302220644267779, label: "Item 15", metadata: { fileIndex: 35, itemIndex: 15 } },
+  { id: 16, value: 0.2665382822341973, label: "Item 16", metadata: { fileIndex: 35, itemIndex: 16 } },
+  { id: 17, value: 0.9673564676844957, label: "Item 17", metadata: { fileIndex: 35, itemIndex: 17 } },
+  { id: 18, value: 0.7306253950035557, label: "Item 18", metadata: { fileIndex: 35, itemIndex: 18 } },
+  { id: 19, value: 0.0043425921800703815, label: "Item 19", metadata: { fileIndex: 35, itemIndex: 19 } },
+  { id: 20, value: 0.12644253872048195, label: "Item 20", metadata: { fileIndex: 35, itemIndex: 20 } },
+  { id: 21, value: 0.3895555325954716, label: "Item 21", metadata: { fileIndex: 35, itemIndex: 21 } },
+  { id: 22, value: 0.5124692622747413, label: "Item 22", metadata: { fileIndex: 35, itemIndex: 22 } },
+  { id: 23, value: 0.9678959954776374, label: "Item 23", metadata: { fileIndex: 35, itemIndex: 23 } },
+  { id: 24, value: 0.9997438840039974, label: "Item 24", metadata: { fileIndex: 35, itemIndex: 24 } },
+  { id: 25, value: 0.35770873153154303, label: "Item 25", metadata: { fileIndex: 35, itemIndex: 25 } },
+  { id: 26, value: 0.16269750048219933, label: "Item 26", metadata: { fileIndex: 35, itemIndex: 26 } },
+  { id: 27, value: 0.6096469080761113, label: "Item 27", metadata: { fileIndex: 35, itemIndex: 27 } },
+  { id: 28, value: 0.1401630148006423, label: "Item 28", metadata: { fileIndex: 35, itemIndex: 28 } },
+  { id: 29, value: 0.6173452297123365, label: "Item 29", metadata: { fileIndex: 35, itemIndex: 29 } },
+  { id: 30, value: 0.5516479242714769, label: "Item 30", metadata: { fileIndex: 35, itemIndex: 30 } },
+  { id: 31, value: 0.35963348258953687, label: "Item 31", metadata: { fileIndex: 35, itemIndex: 31 } },
+  { id: 32, value: 0.0721404270145738, label: "Item 32", metadata: { fileIndex: 35, itemIndex: 32 } },
+  { id: 33, value: 0.3858996837758357, label: "Item 33", metadata: { fileIndex: 35, itemIndex: 33 } },
+  { id: 34, value: 0.4353692679614882, label: "Item 34", metadata: { fileIndex: 35, itemIndex: 34 } },
+  { id: 35, value: 0.20740273252579877, label: "Item 35", metadata: { fileIndex: 35, itemIndex: 35 } },
+  { id: 36, value: 0.424386169195224, label: "Item 36", metadata: { fileIndex: 35, itemIndex: 36 } },
+  { id: 37, value: 0.7771898057709441, label: "Item 37", metadata: { fileIndex: 35, itemIndex: 37 } },
+  { id: 38, value: 0.14866573194714272, label: "Item 38", metadata: { fileIndex: 35, itemIndex: 38 } },
+  { id: 39, value: 0.5067550396813556, label: "Item 39", metadata: { fileIndex: 35, itemIndex: 39 } },
+  { id: 40, value: 0.44384859040311775, label: "Item 40", metadata: { fileIndex: 35, itemIndex: 40 } },
+  { id: 41, value: 0.809991746794104, label: "Item 41", metadata: { fileIndex: 35, itemIndex: 41 } },
+  { id: 42, value: 0.7600533349488243, label: "Item 42", metadata: { fileIndex: 35, itemIndex: 42 } },
+  { id: 43, value: 0.4511033886569795, label: "Item 43", metadata: { fileIndex: 35, itemIndex: 43 } },
+  { id: 44, value: 0.1887339957645502, label: "Item 44", metadata: { fileIndex: 35, itemIndex: 44 } },
+  { id: 45, value: 0.8420429922323172, label: "Item 45", metadata: { fileIndex: 35, itemIndex: 45 } },
+  { id: 46, value: 0.6809456691025375, label: "Item 46", metadata: { fileIndex: 35, itemIndex: 46 } },
+  { id: 47, value: 0.5302791586186013, label: "Item 47", metadata: { fileIndex: 35, itemIndex: 47 } },
+  { id: 48, value: 0.11045231941652323, label: "Item 48", metadata: { fileIndex: 35, itemIndex: 48 } },
+  { id: 49, value: 0.8578698933630791, label: "Item 49", metadata: { fileIndex: 35, itemIndex: 49 } },
+  { id: 50, value: 0.11421130360274745, label: "Item 50", metadata: { fileIndex: 35, itemIndex: 50 } },
+  { id: 51, value: 0.6777539752083945, label: "Item 51", metadata: { fileIndex: 35, itemIndex: 51 } },
+  { id: 52, value: 0.42827020451476483, label: "Item 52", metadata: { fileIndex: 35, itemIndex: 52 } },
+  { id: 53, value: 0.3957513149030103, label: "Item 53", metadata: { fileIndex: 35, itemIndex: 53 } },
+  { id: 54, value: 0.6704413459208911, label: "Item 54", metadata: { fileIndex: 35, itemIndex: 54 } },
+  { id: 55, value: 0.14154695478272927, label: "Item 55", metadata: { fileIndex: 35, itemIndex: 55 } },
+  { id: 56, value: 0.5714403529851595, label: "Item 56", metadata: { fileIndex: 35, itemIndex: 56 } },
+  { id: 57, value: 0.5869047792125364, label: "Item 57", metadata: { fileIndex: 35, itemIndex: 57 } },
+  { id: 58, value: 0.13992752490735083, label: "Item 58", metadata: { fileIndex: 35, itemIndex: 58 } },
+  { id: 59, value: 0.08883626913403253, label: "Item 59", metadata: { fileIndex: 35, itemIndex: 59 } },
+  { id: 60, value: 0.751685375816765, label: "Item 60", metadata: { fileIndex: 35, itemIndex: 60 } },
+  { id: 61, value: 0.2841761849925091, label: "Item 61", metadata: { fileIndex: 35, itemIndex: 61 } },
+  { id: 62, value: 0.25270268711197175, label: "Item 62", metadata: { fileIndex: 35, itemIndex: 62 } },
+  { id: 63, value: 0.23950352769819583, label: "Item 63", metadata: { fileIndex: 35, itemIndex: 63 } },
+  { id: 64, value: 0.10057167912267873, label: "Item 64", metadata: { fileIndex: 35, itemIndex: 64 } },
+  { id: 65, value: 0.7018566835976825, label: "Item 65", metadata: { fileIndex: 35, itemIndex: 65 } },
+  { id: 66, value: 0.6291977218365816, label: "Item 66", metadata: { fileIndex: 35, itemIndex: 66 } },
+  { id: 67, value: 0.902778978291221, label: "Item 67", metadata: { fileIndex: 35, itemIndex: 67 } },
+  { id: 68, value: 0.6657994894747581, label: "Item 68", metadata: { fileIndex: 35, itemIndex: 68 } },
+  { id: 69, value: 0.9194370089340955, label: "Item 69", metadata: { fileIndex: 35, itemIndex: 69 } },
+  { id: 70, value: 0.38141848179913307, label: "Item 70", metadata: { fileIndex: 35, itemIndex: 70 } },
+  { id: 71, value: 0.8509821086721474, label: "Item 71", metadata: { fileIndex: 35, itemIndex: 71 } },
+  { id: 72, value: 0.04102023830139623, label: "Item 72", metadata: { fileIndex: 35, itemIndex: 72 } },
+  { id: 73, value: 0.1854161006317523, label: "Item 73", metadata: { fileIndex: 35, itemIndex: 73 } },
+  { id: 74, value: 0.4966769641342441, label: "Item 74", metadata: { fileIndex: 35, itemIndex: 74 } },
+  { id: 75, value: 0.5685816713956695, label: "Item 75", metadata: { fileIndex: 35, itemIndex: 75 } },
+  { id: 76, value: 0.027492274358149604, label: "Item 76", metadata: { fileIndex: 35, itemIndex: 76 } },
+  { id: 77, value: 0.2703873905110945, label: "Item 77", metadata: { fileIndex: 35, itemIndex: 77 } },
+  { id: 78, value: 0.3774186534265256, label: "Item 78", metadata: { fileIndex: 35, itemIndex: 78 } },
+  { id: 79, value: 0.48248533817720984, label: "Item 79", metadata: { fileIndex: 35, itemIndex: 79 } },
+  { id: 80, value: 0.14941933627960013, label: "Item 80", metadata: { fileIndex: 35, itemIndex: 80 } },
+  { id: 81, value: 0.15505999068839205, label: "Item 81", metadata: { fileIndex: 35, itemIndex: 81 } },
+  { id: 82, value: 0.1491760200628689, label: "Item 82", metadata: { fileIndex: 35, itemIndex: 82 } },
+  { id: 83, value: 0.32059601860408415, label: "Item 83", metadata: { fileIndex: 35, itemIndex: 83 } },
+  { id: 84, value: 0.2071307993826521, label: "Item 84", metadata: { fileIndex: 35, itemIndex: 84 } },
+  { id: 85, value: 0.8198625639560104, label: "Item 85", metadata: { fileIndex: 35, itemIndex: 85 } },
+  { id: 86, value: 0.08266031080949321, label: "Item 86", metadata: { fileIndex: 35, itemIndex: 86 } },
+  { id: 87, value: 0.40228207511277647, label: "Item 87", metadata: { fileIndex: 35, itemIndex: 87 } },
+  { id: 88, value: 0.8054350306666163, label: "Item 88", metadata: { fileIndex: 35, itemIndex: 88 } },
+  { id: 89, value: 0.6527860238413754, label: "Item 89", metadata: { fileIndex: 35, itemIndex: 89 } },
+  { id: 90, value: 0.11993723716296634, label: "Item 90", metadata: { fileIndex: 35, itemIndex: 90 } },
+  { id: 91, value: 0.15911454757439714, label: "Item 91", metadata: { fileIndex: 35, itemIndex: 91 } },
+  { id: 92, value: 0.878459792084253, label: "Item 92", metadata: { fileIndex: 35, itemIndex: 92 } },
+  { id: 93, value: 0.030160285477840887, label: "Item 93", metadata: { fileIndex: 35, itemIndex: 93 } },
+  { id: 94, value: 0.6183920470442346, label: "Item 94", metadata: { fileIndex: 35, itemIndex: 94 } },
+  { id: 95, value: 0.34367797433047653, label: "Item 95", metadata: { fileIndex: 35, itemIndex: 95 } },
+  { id: 96, value: 0.893391987775473, label: "Item 96", metadata: { fileIndex: 35, itemIndex: 96 } },
+  { id: 97, value: 0.07659335473334106, label: "Item 97", metadata: { fileIndex: 35, itemIndex: 97 } },
+  { id: 98, value: 0.20630178041485459, label: "Item 98", metadata: { fileIndex: 35, itemIndex: 98 } },
+  { id: 99, value: 0.33106547014001486, label: "Item 99", metadata: { fileIndex: 35, itemIndex: 99 } },
 ];
 
 export const TRANSFORMATION_MAP_35 = new Map([
@@ -2238,6 +2238,236 @@ export function utilityFunction35_24(input: any): any {
     computed: step5,
     fileIndex: 35,
     funcIndex: 24,
+  };
+}
+
+export function utilityFunction35_25(input: any): any {
+  const _ = require('lodash');
+  const R = require('ramda');
+  const moment = require('moment');
+  const { map, filter, reduce } = require('rxjs/operators');
+  const math = require('mathjs');
+  
+  const step1 = _.cloneDeep(input);
+  const step2 = _.merge(step1, { additional: 'data', index: 25 });
+  const step3 = R.map(x => x * 2, step2.values || []);
+  const step4 = moment().add(25, 'days').format('YYYY-MM-DD');
+  const step5 = math.sqrt(26);
+  
+  return {
+    ...step2,
+    transformed: step3,
+    date: step4,
+    computed: step5,
+    fileIndex: 35,
+    funcIndex: 25,
+  };
+}
+
+export function utilityFunction35_26(input: any): any {
+  const _ = require('lodash');
+  const R = require('ramda');
+  const moment = require('moment');
+  const { map, filter, reduce } = require('rxjs/operators');
+  const math = require('mathjs');
+  
+  const step1 = _.cloneDeep(input);
+  const step2 = _.merge(step1, { additional: 'data', index: 26 });
+  const step3 = R.map(x => x * 2, step2.values || []);
+  const step4 = moment().add(26, 'days').format('YYYY-MM-DD');
+  const step5 = math.sqrt(27);
+  
+  return {
+    ...step2,
+    transformed: step3,
+    date: step4,
+    computed: step5,
+    fileIndex: 35,
+    funcIndex: 26,
+  };
+}
+
+export function utilityFunction35_27(input: any): any {
+  const _ = require('lodash');
+  const R = require('ramda');
+  const moment = require('moment');
+  const { map, filter, reduce } = require('rxjs/operators');
+  const math = require('mathjs');
+  
+  const step1 = _.cloneDeep(input);
+  const step2 = _.merge(step1, { additional: 'data', index: 27 });
+  const step3 = R.map(x => x * 2, step2.values || []);
+  const step4 = moment().add(27, 'days').format('YYYY-MM-DD');
+  const step5 = math.sqrt(28);
+  
+  return {
+    ...step2,
+    transformed: step3,
+    date: step4,
+    computed: step5,
+    fileIndex: 35,
+    funcIndex: 27,
+  };
+}
+
+export function utilityFunction35_28(input: any): any {
+  const _ = require('lodash');
+  const R = require('ramda');
+  const moment = require('moment');
+  const { map, filter, reduce } = require('rxjs/operators');
+  const math = require('mathjs');
+  
+  const step1 = _.cloneDeep(input);
+  const step2 = _.merge(step1, { additional: 'data', index: 28 });
+  const step3 = R.map(x => x * 2, step2.values || []);
+  const step4 = moment().add(28, 'days').format('YYYY-MM-DD');
+  const step5 = math.sqrt(29);
+  
+  return {
+    ...step2,
+    transformed: step3,
+    date: step4,
+    computed: step5,
+    fileIndex: 35,
+    funcIndex: 28,
+  };
+}
+
+export function utilityFunction35_29(input: any): any {
+  const _ = require('lodash');
+  const R = require('ramda');
+  const moment = require('moment');
+  const { map, filter, reduce } = require('rxjs/operators');
+  const math = require('mathjs');
+  
+  const step1 = _.cloneDeep(input);
+  const step2 = _.merge(step1, { additional: 'data', index: 29 });
+  const step3 = R.map(x => x * 2, step2.values || []);
+  const step4 = moment().add(29, 'days').format('YYYY-MM-DD');
+  const step5 = math.sqrt(30);
+  
+  return {
+    ...step2,
+    transformed: step3,
+    date: step4,
+    computed: step5,
+    fileIndex: 35,
+    funcIndex: 29,
+  };
+}
+
+export function utilityFunction35_30(input: any): any {
+  const _ = require('lodash');
+  const R = require('ramda');
+  const moment = require('moment');
+  const { map, filter, reduce } = require('rxjs/operators');
+  const math = require('mathjs');
+  
+  const step1 = _.cloneDeep(input);
+  const step2 = _.merge(step1, { additional: 'data', index: 30 });
+  const step3 = R.map(x => x * 2, step2.values || []);
+  const step4 = moment().add(30, 'days').format('YYYY-MM-DD');
+  const step5 = math.sqrt(31);
+  
+  return {
+    ...step2,
+    transformed: step3,
+    date: step4,
+    computed: step5,
+    fileIndex: 35,
+    funcIndex: 30,
+  };
+}
+
+export function utilityFunction35_31(input: any): any {
+  const _ = require('lodash');
+  const R = require('ramda');
+  const moment = require('moment');
+  const { map, filter, reduce } = require('rxjs/operators');
+  const math = require('mathjs');
+  
+  const step1 = _.cloneDeep(input);
+  const step2 = _.merge(step1, { additional: 'data', index: 31 });
+  const step3 = R.map(x => x * 2, step2.values || []);
+  const step4 = moment().add(31, 'days').format('YYYY-MM-DD');
+  const step5 = math.sqrt(32);
+  
+  return {
+    ...step2,
+    transformed: step3,
+    date: step4,
+    computed: step5,
+    fileIndex: 35,
+    funcIndex: 31,
+  };
+}
+
+export function utilityFunction35_32(input: any): any {
+  const _ = require('lodash');
+  const R = require('ramda');
+  const moment = require('moment');
+  const { map, filter, reduce } = require('rxjs/operators');
+  const math = require('mathjs');
+  
+  const step1 = _.cloneDeep(input);
+  const step2 = _.merge(step1, { additional: 'data', index: 32 });
+  const step3 = R.map(x => x * 2, step2.values || []);
+  const step4 = moment().add(32, 'days').format('YYYY-MM-DD');
+  const step5 = math.sqrt(33);
+  
+  return {
+    ...step2,
+    transformed: step3,
+    date: step4,
+    computed: step5,
+    fileIndex: 35,
+    funcIndex: 32,
+  };
+}
+
+export function utilityFunction35_33(input: any): any {
+  const _ = require('lodash');
+  const R = require('ramda');
+  const moment = require('moment');
+  const { map, filter, reduce } = require('rxjs/operators');
+  const math = require('mathjs');
+  
+  const step1 = _.cloneDeep(input);
+  const step2 = _.merge(step1, { additional: 'data', index: 33 });
+  const step3 = R.map(x => x * 2, step2.values || []);
+  const step4 = moment().add(33, 'days').format('YYYY-MM-DD');
+  const step5 = math.sqrt(34);
+  
+  return {
+    ...step2,
+    transformed: step3,
+    date: step4,
+    computed: step5,
+    fileIndex: 35,
+    funcIndex: 33,
+  };
+}
+
+export function utilityFunction35_34(input: any): any {
+  const _ = require('lodash');
+  const R = require('ramda');
+  const moment = require('moment');
+  const { map, filter, reduce } = require('rxjs/operators');
+  const math = require('mathjs');
+  
+  const step1 = _.cloneDeep(input);
+  const step2 = _.merge(step1, { additional: 'data', index: 34 });
+  const step3 = R.map(x => x * 2, step2.values || []);
+  const step4 = moment().add(34, 'days').format('YYYY-MM-DD');
+  const step5 = math.sqrt(35);
+  
+  return {
+    ...step2,
+    transformed: step3,
+    date: step4,
+    computed: step5,
+    fileIndex: 35,
+    funcIndex: 34,
   };
 }
 
@@ -3659,14 +3889,248 @@ export const BenchmarkComponent35_11: React.FC<{data: any}> = ({ data }) => {
   );
 };
 
+export const BenchmarkComponent35_12: React.FC<{data: any}> = ({ data }) => {
+  const [state12, setState12] = React.useState<any>(null);
+  const [loading12, setLoading12] = React.useState(false);
+  const [error12, setError12] = React.useState<Error | null>(null);
+  
+  React.useEffect(() => {
+    const _ = require('lodash');
+    const processed = _.chain(data)
+      .map((item: any) => ({ ...item, processed: true }))
+      .filter((item: any) => item.value > 0)
+      .sortBy('timestamp')
+      .value();
+    setState12(processed);
+  }, [data]);
+  
+  const handleTransform12 = React.useCallback(() => {
+    const result = utilityFunction35_12(state12);
+    setState12(result);
+  }, [state12]);
+  
+  const memoizedValue12 = React.useMemo(() => {
+    if (!state12) return null;
+    const _ = require('lodash');
+    return _.reduce(state12, (acc: number, val: any) => acc + (val.value || 0), 0);
+  }, [state12]);
+  
+  if (loading12) return <div>Loading component 35_12...</div>;
+  if (error12) return <div>Error in component 35_12: {error12.message}</div>;
+  
+  return (
+    <div className="benchmark-component-35-12">
+      <h3>Benchmark Component 35_12</h3>
+      <div>State: {JSON.stringify(state12)}</div>
+      <div>Memoized Value: {memoizedValue12}</div>
+      <button onClick={handleTransform12}>Transform Data</button>
+    </div>
+  );
+};
+
+export const BenchmarkComponent35_13: React.FC<{data: any}> = ({ data }) => {
+  const [state13, setState13] = React.useState<any>(null);
+  const [loading13, setLoading13] = React.useState(false);
+  const [error13, setError13] = React.useState<Error | null>(null);
+  
+  React.useEffect(() => {
+    const _ = require('lodash');
+    const processed = _.chain(data)
+      .map((item: any) => ({ ...item, processed: true }))
+      .filter((item: any) => item.value > 0)
+      .sortBy('timestamp')
+      .value();
+    setState13(processed);
+  }, [data]);
+  
+  const handleTransform13 = React.useCallback(() => {
+    const result = utilityFunction35_13(state13);
+    setState13(result);
+  }, [state13]);
+  
+  const memoizedValue13 = React.useMemo(() => {
+    if (!state13) return null;
+    const _ = require('lodash');
+    return _.reduce(state13, (acc: number, val: any) => acc + (val.value || 0), 0);
+  }, [state13]);
+  
+  if (loading13) return <div>Loading component 35_13...</div>;
+  if (error13) return <div>Error in component 35_13: {error13.message}</div>;
+  
+  return (
+    <div className="benchmark-component-35-13">
+      <h3>Benchmark Component 35_13</h3>
+      <div>State: {JSON.stringify(state13)}</div>
+      <div>Memoized Value: {memoizedValue13}</div>
+      <button onClick={handleTransform13}>Transform Data</button>
+    </div>
+  );
+};
+
+export const BenchmarkComponent35_14: React.FC<{data: any}> = ({ data }) => {
+  const [state14, setState14] = React.useState<any>(null);
+  const [loading14, setLoading14] = React.useState(false);
+  const [error14, setError14] = React.useState<Error | null>(null);
+  
+  React.useEffect(() => {
+    const _ = require('lodash');
+    const processed = _.chain(data)
+      .map((item: any) => ({ ...item, processed: true }))
+      .filter((item: any) => item.value > 0)
+      .sortBy('timestamp')
+      .value();
+    setState14(processed);
+  }, [data]);
+  
+  const handleTransform14 = React.useCallback(() => {
+    const result = utilityFunction35_14(state14);
+    setState14(result);
+  }, [state14]);
+  
+  const memoizedValue14 = React.useMemo(() => {
+    if (!state14) return null;
+    const _ = require('lodash');
+    return _.reduce(state14, (acc: number, val: any) => acc + (val.value || 0), 0);
+  }, [state14]);
+  
+  if (loading14) return <div>Loading component 35_14...</div>;
+  if (error14) return <div>Error in component 35_14: {error14.message}</div>;
+  
+  return (
+    <div className="benchmark-component-35-14">
+      <h3>Benchmark Component 35_14</h3>
+      <div>State: {JSON.stringify(state14)}</div>
+      <div>Memoized Value: {memoizedValue14}</div>
+      <button onClick={handleTransform14}>Transform Data</button>
+    </div>
+  );
+};
+
+export const BenchmarkComponent35_15: React.FC<{data: any}> = ({ data }) => {
+  const [state15, setState15] = React.useState<any>(null);
+  const [loading15, setLoading15] = React.useState(false);
+  const [error15, setError15] = React.useState<Error | null>(null);
+  
+  React.useEffect(() => {
+    const _ = require('lodash');
+    const processed = _.chain(data)
+      .map((item: any) => ({ ...item, processed: true }))
+      .filter((item: any) => item.value > 0)
+      .sortBy('timestamp')
+      .value();
+    setState15(processed);
+  }, [data]);
+  
+  const handleTransform15 = React.useCallback(() => {
+    const result = utilityFunction35_15(state15);
+    setState15(result);
+  }, [state15]);
+  
+  const memoizedValue15 = React.useMemo(() => {
+    if (!state15) return null;
+    const _ = require('lodash');
+    return _.reduce(state15, (acc: number, val: any) => acc + (val.value || 0), 0);
+  }, [state15]);
+  
+  if (loading15) return <div>Loading component 35_15...</div>;
+  if (error15) return <div>Error in component 35_15: {error15.message}</div>;
+  
+  return (
+    <div className="benchmark-component-35-15">
+      <h3>Benchmark Component 35_15</h3>
+      <div>State: {JSON.stringify(state15)}</div>
+      <div>Memoized Value: {memoizedValue15}</div>
+      <button onClick={handleTransform15}>Transform Data</button>
+    </div>
+  );
+};
+
+export const BenchmarkComponent35_16: React.FC<{data: any}> = ({ data }) => {
+  const [state16, setState16] = React.useState<any>(null);
+  const [loading16, setLoading16] = React.useState(false);
+  const [error16, setError16] = React.useState<Error | null>(null);
+  
+  React.useEffect(() => {
+    const _ = require('lodash');
+    const processed = _.chain(data)
+      .map((item: any) => ({ ...item, processed: true }))
+      .filter((item: any) => item.value > 0)
+      .sortBy('timestamp')
+      .value();
+    setState16(processed);
+  }, [data]);
+  
+  const handleTransform16 = React.useCallback(() => {
+    const result = utilityFunction35_16(state16);
+    setState16(result);
+  }, [state16]);
+  
+  const memoizedValue16 = React.useMemo(() => {
+    if (!state16) return null;
+    const _ = require('lodash');
+    return _.reduce(state16, (acc: number, val: any) => acc + (val.value || 0), 0);
+  }, [state16]);
+  
+  if (loading16) return <div>Loading component 35_16...</div>;
+  if (error16) return <div>Error in component 35_16: {error16.message}</div>;
+  
+  return (
+    <div className="benchmark-component-35-16">
+      <h3>Benchmark Component 35_16</h3>
+      <div>State: {JSON.stringify(state16)}</div>
+      <div>Memoized Value: {memoizedValue16}</div>
+      <button onClick={handleTransform16}>Transform Data</button>
+    </div>
+  );
+};
+
+export const BenchmarkComponent35_17: React.FC<{data: any}> = ({ data }) => {
+  const [state17, setState17] = React.useState<any>(null);
+  const [loading17, setLoading17] = React.useState(false);
+  const [error17, setError17] = React.useState<Error | null>(null);
+  
+  React.useEffect(() => {
+    const _ = require('lodash');
+    const processed = _.chain(data)
+      .map((item: any) => ({ ...item, processed: true }))
+      .filter((item: any) => item.value > 0)
+      .sortBy('timestamp')
+      .value();
+    setState17(processed);
+  }, [data]);
+  
+  const handleTransform17 = React.useCallback(() => {
+    const result = utilityFunction35_17(state17);
+    setState17(result);
+  }, [state17]);
+  
+  const memoizedValue17 = React.useMemo(() => {
+    if (!state17) return null;
+    const _ = require('lodash');
+    return _.reduce(state17, (acc: number, val: any) => acc + (val.value || 0), 0);
+  }, [state17]);
+  
+  if (loading17) return <div>Loading component 35_17...</div>;
+  if (error17) return <div>Error in component 35_17: {error17.message}</div>;
+  
+  return (
+    <div className="benchmark-component-35-17">
+      <h3>Benchmark Component 35_17</h3>
+      <div>State: {JSON.stringify(state17)}</div>
+      <div>Memoized Value: {memoizedValue17}</div>
+      <button onClick={handleTransform17}>Transform Data</button>
+    </div>
+  );
+};
+
 
 // Export all for tree-shaking prevention
 export const BENCHMARK_FILE_35_METADATA = {
   fileIndex: 35,
   generatedAt: new Date().toISOString(),
   version: '1.0.0',
-  components: 12,
-  utilities: 25,
+  components: 18,
+  utilities: 35,
   stateMachines: 8,
   transformers: 15,
 };
