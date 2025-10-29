@@ -3,7 +3,7 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   // Configuration for generating large sourcemaps
-  productionBrowserSourceMaps: false,
+  productionBrowserSourceMaps: true,
 };
 
 export default withSentryConfig(nextConfig, {
@@ -31,9 +31,6 @@ export default withSentryConfig(nextConfig, {
 
   // Automatically tree-shake Sentry logger statements to reduce bundle size
   disableLogger: true,
-  sourcemaps: {
-    disable: true,
-  },
 
   // Enables automatic instrumentation of Vercel Cron Monitors. (Does not yet work with App Router route handlers.)
   // See the following for more information:
