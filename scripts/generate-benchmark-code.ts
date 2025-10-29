@@ -3,8 +3,8 @@ import path from 'path';
 
 const BENCHMARK_DIR = path.join(process.cwd(), 'components', 'benchmark');
 const GENERATED_DIR = path.join(BENCHMARK_DIR, 'generated');
-const NUM_FILES = 800; // Generate 800 files for maximum sourcemap size
-const LINES_PER_FILE = 4000; // ~4000 lines per file
+const NUM_FILES = 10; // Generate 10 files (for resource-constrained environments)
+const LINES_PER_FILE = 3500; // ~3500 lines per file (same density as before)
 
 // List of all large dependencies we'll import
 const LARGE_DEPS = [

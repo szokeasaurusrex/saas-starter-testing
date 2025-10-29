@@ -14,7 +14,7 @@ export * from './batch-9';
 
 // Summary
 export const BENCHMARK_SUMMARY = {
-  totalFiles: 160,
+  totalFiles: 10,
   batches: 10,
-  generatedAt: '2025-10-29T13:58:13.716Z',
+  generatedAt: '2025-10-29T14:57:24.551Z',
 };
