@@ -2,3 +2,4 @@ onlyBuiltDependencies:
   - babylonjs
   - core-js
   - es5-ext
+  - sharp
