@@ -3,7 +3,7 @@
 import React from 'react';
 
 
-export interface DataModel0 {
+export interface DataModel80_0 {
   id: string;
   name: string;
   value: number;
@@ -25,7 +25,7 @@ export interface DataModel0 {
   transformedData0: any[];
 }
 
-export interface DataModel1 {
+export interface DataModel80_1 {
   id: string;
   name: string;
   value: number;
@@ -47,7 +47,7 @@ export interface DataModel1 {
   transformedData1: any[];
 }
 
-export interface DataModel2 {
+export interface DataModel80_2 {
   id: string;
   name: string;
   value: number;
@@ -69,7 +69,7 @@ export interface DataModel2 {
   transformedData2: any[];
 }
 
-export interface DataModel3 {
+export interface DataModel80_3 {
   id: string;
   name: string;
   value: number;
@@ -91,7 +91,7 @@ export interface DataModel3 {
   transformedData3: any[];
 }
 
-export interface DataModel4 {
+export interface DataModel80_4 {
   id: string;
   name: string;
   value: number;
@@ -113,7 +113,7 @@ export interface DataModel4 {
   transformedData4: any[];
 }
 
-export interface DataModel5 {
+export interface DataModel80_5 {
   id: string;
   name: string;
   value: number;
@@ -135,7 +135,7 @@ export interface DataModel5 {
   transformedData5: any[];
 }
 
-export interface DataModel6 {
+export interface DataModel80_6 {
   id: string;
   name: string;
   value: number;
@@ -157,7 +157,7 @@ export interface DataModel6 {
   transformedData6: any[];
 }
 
-export interface DataModel7 {
+export interface DataModel80_7 {
   id: string;
   name: string;
   value: number;
@@ -179,7 +179,7 @@ export interface DataModel7 {
   transformedData7: any[];
 }
 
-export interface DataModel8 {
+export interface DataModel80_8 {
   id: string;
   name: string;
   value: number;
@@ -201,7 +201,7 @@ export interface DataModel8 {
   transformedData8: any[];
 }
 
-export interface DataModel9 {
+export interface DataModel80_9 {
   id: string;
   name: string;
   value: number;
@@ -223,7 +223,7 @@ export interface DataModel9 {
   transformedData9: any[];
 }
 
-export interface DataModel10 {
+export interface DataModel80_10 {
   id: string;
   name: string;
   value: number;
@@ -245,7 +245,7 @@ export interface DataModel10 {
   transformedData10: any[];
 }
 
-export interface DataModel11 {
+export interface DataModel80_11 {
   id: string;
   name: string;
   value: number;
@@ -267,7 +267,7 @@ export interface DataModel11 {
   transformedData11: any[];
 }
 
-export interface DataModel12 {
+export interface DataModel80_12 {
   id: string;
   name: string;
   value: number;
@@ -289,7 +289,7 @@ export interface DataModel12 {
   transformedData12: any[];
 }
 
-export interface DataModel13 {
+export interface DataModel80_13 {
   id: string;
   name: string;
   value: number;
@@ -311,7 +311,7 @@ export interface DataModel13 {
   transformedData13: any[];
 }
 
-export interface DataModel14 {
+export interface DataModel80_14 {
   id: string;
   name: string;
   value: number;
@@ -333,7 +333,7 @@ export interface DataModel14 {
   transformedData14: any[];
 }
 
-export interface DataModel15 {
+export interface DataModel80_15 {
   id: string;
   name: string;
   value: number;
@@ -355,7 +355,7 @@ export interface DataModel15 {
   transformedData15: any[];
 }
 
-export interface DataModel16 {
+export interface DataModel80_16 {
   id: string;
   name: string;
   value: number;
@@ -377,7 +377,7 @@ export interface DataModel16 {
   transformedData16: any[];
 }
 
-export interface DataModel17 {
+export interface DataModel80_17 {
   id: string;
   name: string;
   value: number;
@@ -399,7 +399,7 @@ export interface DataModel17 {
   transformedData17: any[];
 }
 
-export interface DataModel18 {
+export interface DataModel80_18 {
   id: string;
   name: string;
   value: number;
@@ -421,7 +421,7 @@ export interface DataModel18 {
   transformedData18: any[];
 }
 
-export interface DataModel19 {
+export interface DataModel80_19 {
   id: string;
   name: string;
   value: number;
@@ -443,7 +443,7 @@ export interface DataModel19 {
   transformedData19: any[];
 }
 
-export interface DataModel20 {
+export interface DataModel80_20 {
   id: string;
   name: string;
   value: number;
@@ -465,7 +465,7 @@ export interface DataModel20 {
   transformedData20: any[];
 }
 
-export interface DataModel21 {
+export interface DataModel80_21 {
   id: string;
   name: string;
   value: number;
@@ -487,7 +487,7 @@ export interface DataModel21 {
   transformedData21: any[];
 }
 
-export interface DataModel22 {
+export interface DataModel80_22 {
   id: string;
   name: string;
   value: number;
@@ -509,7 +509,7 @@ export interface DataModel22 {
   transformedData22: any[];
 }
 
-export interface DataModel23 {
+export interface DataModel80_23 {
   id: string;
   name: string;
   value: number;
@@ -531,7 +531,7 @@ export interface DataModel23 {
   transformedData23: any[];
 }
 
-export interface DataModel24 {
+export interface DataModel80_24 {
   id: string;
   name: string;
   value: number;
@@ -553,7 +553,7 @@ export interface DataModel24 {
   transformedData24: any[];
 }
 
-export interface DataModel25 {
+export interface DataModel80_25 {
   id: string;
   name: string;
   value: number;
@@ -575,7 +575,7 @@ export interface DataModel25 {
   transformedData25: any[];
 }
 
-export interface DataModel26 {
+export interface DataModel80_26 {
   id: string;
   name: string;
   value: number;
@@ -597,7 +597,7 @@ export interface DataModel26 {
   transformedData26: any[];
 }
 
-export interface DataModel27 {
+export interface DataModel80_27 {
   id: string;
   name: string;
   value: number;
@@ -619,7 +619,7 @@ export interface DataModel27 {
   transformedData27: any[];
 }
 
-export interface DataModel28 {
+export interface DataModel80_28 {
   id: string;
   name: string;
   value: number;
@@ -641,7 +641,7 @@ export interface DataModel28 {
   transformedData28: any[];
 }
 
-export interface DataModel29 {
+export interface DataModel80_29 {
   id: string;
   name: string;
   value: number;
@@ -663,7 +663,7 @@ export interface DataModel29 {
   transformedData29: any[];
 }
 
-export interface DataModel30 {
+export interface DataModel80_30 {
   id: string;
   name: string;
   value: number;
@@ -685,7 +685,7 @@ export interface DataModel30 {
   transformedData30: any[];
 }
 
-export interface DataModel31 {
+export interface DataModel80_31 {
   id: string;
   name: string;
   value: number;
@@ -707,7 +707,7 @@ export interface DataModel31 {
   transformedData31: any[];
 }
 
-export interface DataModel32 {
+export interface DataModel80_32 {
   id: string;
   name: string;
   value: number;
@@ -729,7 +729,7 @@ export interface DataModel32 {
   transformedData32: any[];
 }
 
-export interface DataModel33 {
+export interface DataModel80_33 {
   id: string;
   name: string;
   value: number;
@@ -751,7 +751,7 @@ export interface DataModel33 {
   transformedData33: any[];
 }
 
-export interface DataModel34 {
+export interface DataModel80_34 {
   id: string;
   name: string;
   value: number;
@@ -773,7 +773,7 @@ export interface DataModel34 {
   transformedData34: any[];
 }
 
-export interface DataModel35 {
+export interface DataModel80_35 {
   id: string;
   name: string;
   value: number;
@@ -795,7 +795,7 @@ export interface DataModel35 {
   transformedData35: any[];
 }
 
-export interface DataModel36 {
+export interface DataModel80_36 {
   id: string;
   name: string;
   value: number;
@@ -817,7 +817,7 @@ export interface DataModel36 {
   transformedData36: any[];
 }
 
-export interface DataModel37 {
+export interface DataModel80_37 {
   id: string;
   name: string;
   value: number;
@@ -839,7 +839,7 @@ export interface DataModel37 {
   transformedData37: any[];
 }
 
-export interface DataModel38 {
+export interface DataModel80_38 {
   id: string;
   name: string;
   value: number;
@@ -861,7 +861,7 @@ export interface DataModel38 {
   transformedData38: any[];
 }
 
-export interface DataModel39 {
+export interface DataModel80_39 {
   id: string;
   name: string;
   value: number;
@@ -883,7 +883,7 @@ export interface DataModel39 {
   transformedData39: any[];
 }
 
-export interface DataModel40 {
+export interface DataModel80_40 {
   id: string;
   name: string;
   value: number;
@@ -905,7 +905,7 @@ export interface DataModel40 {
   transformedData40: any[];
 }
 
-export interface DataModel41 {
+export interface DataModel80_41 {
   id: string;
   name: string;
   value: number;
@@ -927,7 +927,7 @@ export interface DataModel41 {
   transformedData41: any[];
 }
 
-export interface DataModel42 {
+export interface DataModel80_42 {
   id: string;
   name: string;
   value: number;
@@ -949,7 +949,7 @@ export interface DataModel42 {
   transformedData42: any[];
 }
 
-export interface DataModel43 {
+export interface DataModel80_43 {
   id: string;
   name: string;
   value: number;
@@ -971,7 +971,7 @@ export interface DataModel43 {
   transformedData43: any[];
 }
 
-export interface DataModel44 {
+export interface DataModel80_44 {
   id: string;
   name: string;
   value: number;
@@ -993,7 +993,7 @@ export interface DataModel44 {
   transformedData44: any[];
 }
 
-export interface DataModel45 {
+export interface DataModel80_45 {
   id: string;
   name: string;
   value: number;
@@ -1015,7 +1015,7 @@ export interface DataModel45 {
   transformedData45: any[];
 }
 
-export interface DataModel46 {
+export interface DataModel80_46 {
   id: string;
   name: string;
   value: number;
@@ -1037,7 +1037,7 @@ export interface DataModel46 {
   transformedData46: any[];
 }
 
-export interface DataModel47 {
+export interface DataModel80_47 {
   id: string;
   name: string;
   value: number;
@@ -1059,7 +1059,7 @@ export interface DataModel47 {
   transformedData47: any[];
 }
 
-export interface DataModel48 {
+export interface DataModel80_48 {
   id: string;
   name: string;
   value: number;
@@ -1081,7 +1081,7 @@ export interface DataModel48 {
   transformedData48: any[];
 }
 
-export interface DataModel49 {
+export interface DataModel80_49 {
   id: string;
   name: string;
   value: number;
@@ -1106,106 +1106,106 @@ export interface DataModel49 {
 
 
 export const LARGE_CONSTANT_ARRAY_80 = [
-  { id: 0, value: 0.8968733347674589, label: "Item 0", metadata: { fileIndex: 80, itemIndex: 0 } },
-  { id: 1, value: 0.6699633540235959, label: "Item 1", metadata: { fileIndex: 80, itemIndex: 1 } },
-  { id: 2, value: 0.2189030004991217, label: "Item 2", metadata: { fileIndex: 80, itemIndex: 2 } },
-  { id: 3, value: 0.3718836068787492, label: "Item 3", metadata: { fileIndex: 80, itemIndex: 3 } },
-  { id: 4, value: 0.5133153071243952, label: "Item 4", metadata: { fileIndex: 80, itemIndex: 4 } },
-  { id: 5, value: 0.2851125694108947, label: "Item 5", metadata: { fileIndex: 80, itemIndex: 5 } },
-  { id: 6, value: 0.37632306467880317, label: "Item 6", metadata: { fileIndex: 80, itemIndex: 6 } },
-  { id: 7, value: 0.5396292966591392, label: "Item 7", metadata: { fileIndex: 80, itemIndex: 7 } },
-  { id: 8, value: 0.5410951827485901, label: "Item 8", metadata: { fileIndex: 80, itemIndex: 8 } },
-  { id: 9, value: 0.014137031158383717, label: "Item 9", metadata: { fileIndex: 80, itemIndex: 9 } },
-  { id: 10, value: 0.1803121153277587, label: "Item 10", metadata: { fileIndex: 80, itemIndex: 10 } },
-  { id: 11, value: 0.4574766571962894, label: "Item 11", metadata: { fileIndex: 80, itemIndex: 11 } },
-  { id: 12, value: 0.41878690570669685, label: "Item 12", metadata: { fileIndex: 80, itemIndex: 12 } },
-  { id: 13, value: 0.461177636009076, label: "Item 13", metadata: { fileIndex: 80, itemIndex: 13 } },
-  { id: 14, value: 0.34651032348991406, label: "Item 14", metadata: { fileIndex: 80, itemIndex: 14 } },
-  { id: 15, value: 0.05963148269676788, label: "Item 15", metadata: { fileIndex: 80, itemIndex: 15 } },
-  { id: 16, value: 0.45568122125275634, label: "Item 16", metadata: { fileIndex: 80, itemIndex: 16 } },
-  { id: 17, value: 0.799167003230739, label: "Item 17", metadata: { fileIndex: 80, itemIndex: 17 } },
-  { id: 18, value: 0.8935382797190223, label: "Item 18", metadata: { fileIndex: 80, itemIndex: 18 } },
-  { id: 19, value: 0.8420392273240793, label: "Item 19", metadata: { fileIndex: 80, itemIndex: 19 } },
-  { id: 20, value: 0.8823050050699044, label: "Item 20", metadata: { fileIndex: 80, itemIndex: 20 } },
-  { id: 21, value: 0.6406902756225492, label: "Item 21", metadata: { fileIndex: 80, itemIndex: 21 } },
-  { id: 22, value: 0.1487527358375509, label: "Item 22", metadata: { fileIndex: 80, itemIndex: 22 } },
-  { id: 23, value: 0.33486483602812656, label: "Item 23", metadata: { fileIndex: 80, itemIndex: 23 } },
-  { id: 24, value: 0.6148312011658947, label: "Item 24", metadata: { fileIndex: 80, itemIndex: 24 } },
-  { id: 25, value: 0.5091297973596103, label: "Item 25", metadata: { fileIndex: 80, itemIndex: 25 } },
-  { id: 26, value: 0.9845485553243463, label: "Item 26", metadata: { fileIndex: 80, itemIndex: 26 } },
-  { id: 27, value: 0.1891942388360579, label: "Item 27", metadata: { fileIndex: 80, itemIndex: 27 } },
-  { id: 28, value: 0.5073796871721752, label: "Item 28", metadata: { fileIndex: 80, itemIndex: 28 } },
-  { id: 29, value: 0.3323031536367804, label: "Item 29", metadata: { fileIndex: 80, itemIndex: 29 } },
-  { id: 30, value: 0.9503610319093627, label: "Item 30", metadata: { fileIndex: 80, itemIndex: 30 } },
-  { id: 31, value: 0.8881687247273369, label: "Item 31", metadata: { fileIndex: 80, itemIndex: 31 } },
-  { id: 32, value: 0.36718479446790586, label: "Item 32", metadata: { fileIndex: 80, itemIndex: 32 } },
-  { id: 33, value: 0.8453062059224379, label: "Item 33", metadata: { fileIndex: 80, itemIndex: 33 } },
-  { id: 34, value: 0.28999421729420183, label: "Item 34", metadata: { fileIndex: 80, itemIndex: 34 } },
-  { id: 35, value: 0.5459797501642807, label: "Item 35", metadata: { fileIndex: 80, itemIndex: 35 } },
-  { id: 36, value: 0.8679313807678801, label: "Item 36", metadata: { fileIndex: 80, itemIndex: 36 } },
-  { id: 37, value: 0.5031358996497872, label: "Item 37", metadata: { fileIndex: 80, itemIndex: 37 } },
-  { id: 38, value: 0.4930672798159643, label: "Item 38", metadata: { fileIndex: 80, itemIndex: 38 } },
-  { id: 39, value: 0.026550050940723713, label: "Item 39", metadata: { fileIndex: 80, itemIndex: 39 } },
-  { id: 40, value: 0.9660955144216161, label: "Item 40", metadata: { fileIndex: 80, itemIndex: 40 } },
-  { id: 41, value: 0.4948962401396031, label: "Item 41", metadata: { fileIndex: 80, itemIndex: 41 } },
-  { id: 42, value: 0.6858622014831512, label: "Item 42", metadata: { fileIndex: 80, itemIndex: 42 } },
-  { id: 43, value: 0.183395743294128, label: "Item 43", metadata: { fileIndex: 80, itemIndex: 43 } },
-  { id: 44, value: 0.3819645497415165, label: "Item 44", metadata: { fileIndex: 80, itemIndex: 44 } },
-  { id: 45, value: 0.27130389693664125, label: "Item 45", metadata: { fileIndex: 80, itemIndex: 45 } },
-  { id: 46, value: 0.8006716856116489, label: "Item 46", metadata: { fileIndex: 80, itemIndex: 46 } },
-  { id: 47, value: 0.8137368382262444, label: "Item 47", metadata: { fileIndex: 80, itemIndex: 47 } },
-  { id: 48, value: 0.9212802608687192, label: "Item 48", metadata: { fileIndex: 80, itemIndex: 48 } },
-  { id: 49, value: 0.9677694794803189, label: "Item 49", metadata: { fileIndex: 80, itemIndex: 49 } },
-  { id: 50, value: 0.08513069603502577, label: "Item 50", metadata: { fileIndex: 80, itemIndex: 50 } },
-  { id: 51, value: 0.590100819892913, label: "Item 51", metadata: { fileIndex: 80, itemIndex: 51 } },
-  { id: 52, value: 0.9962680925688494, label: "Item 52", metadata: { fileIndex: 80, itemIndex: 52 } },
-  { id: 53, value: 0.3168375757664159, label: "Item 53", metadata: { fileIndex: 80, itemIndex: 53 } },
-  { id: 54, value: 0.3960649722502865, label: "Item 54", metadata: { fileIndex: 80, itemIndex: 54 } },
-  { id: 55, value: 0.9956897248582117, label: "Item 55", metadata: { fileIndex: 80, itemIndex: 55 } },
-  { id: 56, value: 0.5571727851123272, label: "Item 56", metadata: { fileIndex: 80, itemIndex: 56 } },
-  { id: 57, value: 0.5121935547072123, label: "Item 57", metadata: { fileIndex: 80, itemIndex: 57 } },
-  { id: 58, value: 0.8306884584490355, label: "Item 58", metadata: { fileIndex: 80, itemIndex: 58 } },
-  { id: 59, value: 0.6555651353770908, label: "Item 59", metadata: { fileIndex: 80, itemIndex: 59 } },
-  { id: 60, value: 0.04845958905027614, label: "Item 60", metadata: { fileIndex: 80, itemIndex: 60 } },
-  { id: 61, value: 0.010266144331336324, label: "Item 61", metadata: { fileIndex: 80, itemIndex: 61 } },
-  { id: 62, value: 0.050375343363077585, label: "Item 62", metadata: { fileIndex: 80, itemIndex: 62 } },
-  { id: 63, value: 0.04235387061288853, label: "Item 63", metadata: { fileIndex: 80, itemIndex: 63 } },
-  { id: 64, value: 0.445598991896204, label: "Item 64", metadata: { fileIndex: 80, itemIndex: 64 } },
-  { id: 65, value: 0.3416220156334111, label: "Item 65", metadata: { fileIndex: 80, itemIndex: 65 } },
-  { id: 66, value: 0.8606048790803094, label: "Item 66", metadata: { fileIndex: 80, itemIndex: 66 } },
-  { id: 67, value: 0.37275860658210735, label: "Item 67", metadata: { fileIndex: 80, itemIndex: 67 } },
-  { id: 68, value: 0.7261828458192499, label: "Item 68", metadata: { fileIndex: 80, itemIndex: 68 } },
-  { id: 69, value: 0.589155726295973, label: "Item 69", metadata: { fileIndex: 80, itemIndex: 69 } },
-  { id: 70, value: 0.5169976555845641, label: "Item 70", metadata: { fileIndex: 80, itemIndex: 70 } },
-  { id: 71, value: 0.3949292262859687, label: "Item 71", metadata: { fileIndex: 80, itemIndex: 71 } },
-  { id: 72, value: 0.1295437516716227, label: "Item 72", metadata: { fileIndex: 80, itemIndex: 72 } },
-  { id: 73, value: 0.08464054092645656, label: "Item 73", metadata: { fileIndex: 80, itemIndex: 73 } },
-  { id: 74, value: 0.8712808990651317, label: "Item 74", metadata: { fileIndex: 80, itemIndex: 74 } },
-  { id: 75, value: 0.2761920150726598, label: "Item 75", metadata: { fileIndex: 80, itemIndex: 75 } },
-  { id: 76, value: 0.30974433894867315, label: "Item 76", metadata: { fileIndex: 80, itemIndex: 76 } },
-  { id: 77, value: 0.18864550893513976, label: "Item 77", metadata: { fileIndex: 80, itemIndex: 77 } },
-  { id: 78, value: 0.8928130397383667, label: "Item 78", metadata: { fileIndex: 80, itemIndex: 78 } },
-  { id: 79, value: 0.26884729419396236, label: "Item 79", metadata: { fileIndex: 80, itemIndex: 79 } },
-  { id: 80, value: 0.7897820968413567, label: "Item 80", metadata: { fileIndex: 80, itemIndex: 80 } },
-  { id: 81, value: 0.19574794027866282, label: "Item 81", metadata: { fileIndex: 80, itemIndex: 81 } },
-  { id: 82, value: 0.14427338394446565, label: "Item 82", metadata: { fileIndex: 80, itemIndex: 82 } },
-  { id: 83, value: 0.6436364288506469, label: "Item 83", metadata: { fileIndex: 80, itemIndex: 83 } },
-  { id: 84, value: 0.06471378390250315, label: "Item 84", metadata: { fileIndex: 80, itemIndex: 84 } },
-  { id: 85, value: 0.2474781922331848, label: "Item 85", metadata: { fileIndex: 80, itemIndex: 85 } },
-  { id: 86, value: 0.5112553449182009, label: "Item 86", metadata: { fileIndex: 80, itemIndex: 86 } },
-  { id: 87, value: 0.1555583003972707, label: "Item 87", metadata: { fileIndex: 80, itemIndex: 87 } },
-  { id: 88, value: 0.20184738497321897, label: "Item 88", metadata: { fileIndex: 80, itemIndex: 88 } },
-  { id: 89, value: 0.211846606000907, label: "Item 89", metadata: { fileIndex: 80, itemIndex: 89 } },
-  { id: 90, value: 0.6983055730014822, label: "Item 90", metadata: { fileIndex: 80, itemIndex: 90 } },
-  { id: 91, value: 0.21077629227259886, label: "Item 91", metadata: { fileIndex: 80, itemIndex: 91 } },
-  { id: 92, value: 0.9765612477474503, label: "Item 92", metadata: { fileIndex: 80, itemIndex: 92 } },
-  { id: 93, value: 0.6195302394106292, label: "Item 93", metadata: { fileIndex: 80, itemIndex: 93 } },
-  { id: 94, value: 0.7466903739864994, label: "Item 94", metadata: { fileIndex: 80, itemIndex: 94 } },
-  { id: 95, value: 0.3243098793236143, label: "Item 95", metadata: { fileIndex: 80, itemIndex: 95 } },
-  { id: 96, value: 0.4840439072738325, label: "Item 96", metadata: { fileIndex: 80, itemIndex: 96 } },
-  { id: 97, value: 0.9279005254598058, label: "Item 97", metadata: { fileIndex: 80, itemIndex: 97 } },
-  { id: 98, value: 0.6092268291807819, label: "Item 98", metadata: { fileIndex: 80, itemIndex: 98 } },
-  { id: 99, value: 0.46567654669711467, label: "Item 99", metadata: { fileIndex: 80, itemIndex: 99 } },
+  { id: 0, value: 0.916660765226786, label: "Item 0", metadata: { fileIndex: 80, itemIndex: 0 } },
+  { id: 1, value: 0.06595151686947287, label: "Item 1", metadata: { fileIndex: 80, itemIndex: 1 } },
+  { id: 2, value: 0.27636441447220617, label: "Item 2", metadata: { fileIndex: 80, itemIndex: 2 } },
+  { id: 3, value: 0.5982659829209993, label: "Item 3", metadata: { fileIndex: 80, itemIndex: 3 } },
+  { id: 4, value: 0.7301837678334788, label: "Item 4", metadata: { fileIndex: 80, itemIndex: 4 } },
+  { id: 5, value: 0.8622760770170528, label: "Item 5", metadata: { fileIndex: 80, itemIndex: 5 } },
+  { id: 6, value: 0.5539402866788377, label: "Item 6", metadata: { fileIndex: 80, itemIndex: 6 } },
+  { id: 7, value: 0.4844768259056089, label: "Item 7", metadata: { fileIndex: 80, itemIndex: 7 } },
+  { id: 8, value: 0.7587393764214103, label: "Item 8", metadata: { fileIndex: 80, itemIndex: 8 } },
+  { id: 9, value: 0.223059597949274, label: "Item 9", metadata: { fileIndex: 80, itemIndex: 9 } },
+  { id: 10, value: 0.3800785068497117, label: "Item 10", metadata: { fileIndex: 80, itemIndex: 10 } },
+  { id: 11, value: 0.6930554999171779, label: "Item 11", metadata: { fileIndex: 80, itemIndex: 11 } },
+  { id: 12, value: 0.7193699367490896, label: "Item 12", metadata: { fileIndex: 80, itemIndex: 12 } },
+  { id: 13, value: 0.9258240332246448, label: "Item 13", metadata: { fileIndex: 80, itemIndex: 13 } },
+  { id: 14, value: 0.6686936607689395, label: "Item 14", metadata: { fileIndex: 80, itemIndex: 14 } },
+  { id: 15, value: 0.7688888921266541, label: "Item 15", metadata: { fileIndex: 80, itemIndex: 15 } },
+  { id: 16, value: 0.10263341187328368, label: "Item 16", metadata: { fileIndex: 80, itemIndex: 16 } },
+  { id: 17, value: 0.6891782800637036, label: "Item 17", metadata: { fileIndex: 80, itemIndex: 17 } },
+  { id: 18, value: 0.8538874912553205, label: "Item 18", metadata: { fileIndex: 80, itemIndex: 18 } },
+  { id: 19, value: 0.9191247828972879, label: "Item 19", metadata: { fileIndex: 80, itemIndex: 19 } },
+  { id: 20, value: 0.464221748997671, label: "Item 20", metadata: { fileIndex: 80, itemIndex: 20 } },
+  { id: 21, value: 0.8101070313707479, label: "Item 21", metadata: { fileIndex: 80, itemIndex: 21 } },
+  { id: 22, value: 0.44435868061044426, label: "Item 22", metadata: { fileIndex: 80, itemIndex: 22 } },
+  { id: 23, value: 0.012089936867347717, label: "Item 23", metadata: { fileIndex: 80, itemIndex: 23 } },
+  { id: 24, value: 0.3285532178215915, label: "Item 24", metadata: { fileIndex: 80, itemIndex: 24 } },
+  { id: 25, value: 0.3677039189018436, label: "Item 25", metadata: { fileIndex: 80, itemIndex: 25 } },
+  { id: 26, value: 0.2864849881349998, label: "Item 26", metadata: { fileIndex: 80, itemIndex: 26 } },
+  { id: 27, value: 0.7700273777996116, label: "Item 27", metadata: { fileIndex: 80, itemIndex: 27 } },
+  { id: 28, value: 0.6166852794863689, label: "Item 28", metadata: { fileIndex: 80, itemIndex: 28 } },
+  { id: 29, value: 0.9643888092206687, label: "Item 29", metadata: { fileIndex: 80, itemIndex: 29 } },
+  { id: 30, value: 0.7429036894243626, label: "Item 30", metadata: { fileIndex: 80, itemIndex: 30 } },
+  { id: 31, value: 0.9206945465380725, label: "Item 31", metadata: { fileIndex: 80, itemIndex: 31 } },
+  { id: 32, value: 0.1673784848630282, label: "Item 32", metadata: { fileIndex: 80, itemIndex: 32 } },
+  { id: 33, value: 0.1402975183466051, label: "Item 33", metadata: { fileIndex: 80, itemIndex: 33 } },
+  { id: 34, value: 0.00748885089904916, label: "Item 34", metadata: { fileIndex: 80, itemIndex: 34 } },
+  { id: 35, value: 0.787116279592972, label: "Item 35", metadata: { fileIndex: 80, itemIndex: 35 } },
+  { id: 36, value: 0.49292501358019547, label: "Item 36", metadata: { fileIndex: 80, itemIndex: 36 } },
+  { id: 37, value: 0.03495416010761687, label: "Item 37", metadata: { fileIndex: 80, itemIndex: 37 } },
+  { id: 38, value: 0.6452464852126298, label: "Item 38", metadata: { fileIndex: 80, itemIndex: 38 } },
+  { id: 39, value: 0.9569755015546708, label: "Item 39", metadata: { fileIndex: 80, itemIndex: 39 } },
+  { id: 40, value: 0.22437601193470202, label: "Item 40", metadata: { fileIndex: 80, itemIndex: 40 } },
+  { id: 41, value: 0.4095571810980223, label: "Item 41", metadata: { fileIndex: 80, itemIndex: 41 } },
+  { id: 42, value: 0.9306153951127822, label: "Item 42", metadata: { fileIndex: 80, itemIndex: 42 } },
+  { id: 43, value: 0.6579808213671123, label: "Item 43", metadata: { fileIndex: 80, itemIndex: 43 } },
+  { id: 44, value: 0.9173901884780054, label: "Item 44", metadata: { fileIndex: 80, itemIndex: 44 } },
+  { id: 45, value: 0.4143721054989571, label: "Item 45", metadata: { fileIndex: 80, itemIndex: 45 } },
+  { id: 46, value: 0.5098922263247476, label: "Item 46", metadata: { fileIndex: 80, itemIndex: 46 } },
+  { id: 47, value: 0.9913781980694982, label: "Item 47", metadata: { fileIndex: 80, itemIndex: 47 } },
+  { id: 48, value: 0.4670429270820877, label: "Item 48", metadata: { fileIndex: 80, itemIndex: 48 } },
+  { id: 49, value: 0.6331169792854847, label: "Item 49", metadata: { fileIndex: 80, itemIndex: 49 } },
+  { id: 50, value: 0.704969928591413, label: "Item 50", metadata: { fileIndex: 80, itemIndex: 50 } },
+  { id: 51, value: 0.725736222991705, label: "Item 51", metadata: { fileIndex: 80, itemIndex: 51 } },
+  { id: 52, value: 0.22511377374798514, label: "Item 52", metadata: { fileIndex: 80, itemIndex: 52 } },
+  { id: 53, value: 0.6403123305700922, label: "Item 53", metadata: { fileIndex: 80, itemIndex: 53 } },
+  { id: 54, value: 0.3632329435605801, label: "Item 54", metadata: { fileIndex: 80, itemIndex: 54 } },
+  { id: 55, value: 0.6495804010734139, label: "Item 55", metadata: { fileIndex: 80, itemIndex: 55 } },
+  { id: 56, value: 0.24506923744517728, label: "Item 56", metadata: { fileIndex: 80, itemIndex: 56 } },
+  { id: 57, value: 0.8155767061977304, label: "Item 57", metadata: { fileIndex: 80, itemIndex: 57 } },
+  { id: 58, value: 0.10339700619300607, label: "Item 58", metadata: { fileIndex: 80, itemIndex: 58 } },
+  { id: 59, value: 0.5934002834126957, label: "Item 59", metadata: { fileIndex: 80, itemIndex: 59 } },
+  { id: 60, value: 0.32989857806626355, label: "Item 60", metadata: { fileIndex: 80, itemIndex: 60 } },
+  { id: 61, value: 0.006573171448574389, label: "Item 61", metadata: { fileIndex: 80, itemIndex: 61 } },
+  { id: 62, value: 0.7192937051758506, label: "Item 62", metadata: { fileIndex: 80, itemIndex: 62 } },
+  { id: 63, value: 0.20421010897945036, label: "Item 63", metadata: { fileIndex: 80, itemIndex: 63 } },
+  { id: 64, value: 0.7671633216486693, label: "Item 64", metadata: { fileIndex: 80, itemIndex: 64 } },
+  { id: 65, value: 0.5960624898758622, label: "Item 65", metadata: { fileIndex: 80, itemIndex: 65 } },
+  { id: 66, value: 0.8550891308485453, label: "Item 66", metadata: { fileIndex: 80, itemIndex: 66 } },
+  { id: 67, value: 0.31351054562134806, label: "Item 67", metadata: { fileIndex: 80, itemIndex: 67 } },
+  { id: 68, value: 0.09427792696801363, label: "Item 68", metadata: { fileIndex: 80, itemIndex: 68 } },
+  { id: 69, value: 0.5041109069387533, label: "Item 69", metadata: { fileIndex: 80, itemIndex: 69 } },
+  { id: 70, value: 0.9922527555244953, label: "Item 70", metadata: { fileIndex: 80, itemIndex: 70 } },
+  { id: 71, value: 0.6463311735949824, label: "Item 71", metadata: { fileIndex: 80, itemIndex: 71 } },
+  { id: 72, value: 0.8616908229421076, label: "Item 72", metadata: { fileIndex: 80, itemIndex: 72 } },
+  { id: 73, value: 0.9317296256337593, label: "Item 73", metadata: { fileIndex: 80, itemIndex: 73 } },
+  { id: 74, value: 0.7750009244564138, label: "Item 74", metadata: { fileIndex: 80, itemIndex: 74 } },
+  { id: 75, value: 0.17783344043308014, label: "Item 75", metadata: { fileIndex: 80, itemIndex: 75 } },
+  { id: 76, value: 0.07710659148369747, label: "Item 76", metadata: { fileIndex: 80, itemIndex: 76 } },
+  { id: 77, value: 0.5150569369468883, label: "Item 77", metadata: { fileIndex: 80, itemIndex: 77 } },
+  { id: 78, value: 0.7432122445405067, label: "Item 78", metadata: { fileIndex: 80, itemIndex: 78 } },
+  { id: 79, value: 0.40721742326892785, label: "Item 79", metadata: { fileIndex: 80, itemIndex: 79 } },
+  { id: 80, value: 0.8895423662709854, label: "Item 80", metadata: { fileIndex: 80, itemIndex: 80 } },
+  { id: 81, value: 0.862975876512476, label: "Item 81", metadata: { fileIndex: 80, itemIndex: 81 } },
+  { id: 82, value: 0.17625022786583222, label: "Item 82", metadata: { fileIndex: 80, itemIndex: 82 } },
+  { id: 83, value: 0.03250419797957371, label: "Item 83", metadata: { fileIndex: 80, itemIndex: 83 } },
+  { id: 84, value: 0.5377177805262374, label: "Item 84", metadata: { fileIndex: 80, itemIndex: 84 } },
+  { id: 85, value: 0.84751133295355, label: "Item 85", metadata: { fileIndex: 80, itemIndex: 85 } },
+  { id: 86, value: 0.24705629722737155, label: "Item 86", metadata: { fileIndex: 80, itemIndex: 86 } },
+  { id: 87, value: 0.37869125940789083, label: "Item 87", metadata: { fileIndex: 80, itemIndex: 87 } },
+  { id: 88, value: 0.9684682675349128, label: "Item 88", metadata: { fileIndex: 80, itemIndex: 88 } },
+  { id: 89, value: 0.7066567111676225, label: "Item 89", metadata: { fileIndex: 80, itemIndex: 89 } },
+  { id: 90, value: 0.8115211188360663, label: "Item 90", metadata: { fileIndex: 80, itemIndex: 90 } },
+  { id: 91, value: 0.6695290581534534, label: "Item 91", metadata: { fileIndex: 80, itemIndex: 91 } },
+  { id: 92, value: 0.5073019140529822, label: "Item 92", metadata: { fileIndex: 80, itemIndex: 92 } },
+  { id: 93, value: 0.8529851366291079, label: "Item 93", metadata: { fileIndex: 80, itemIndex: 93 } },
+  { id: 94, value: 0.47337021058289674, label: "Item 94", metadata: { fileIndex: 80, itemIndex: 94 } },
+  { id: 95, value: 0.8155905547194697, label: "Item 95", metadata: { fileIndex: 80, itemIndex: 95 } },
+  { id: 96, value: 0.03627605767808806, label: "Item 96", metadata: { fileIndex: 80, itemIndex: 96 } },
+  { id: 97, value: 0.03456387731904975, label: "Item 97", metadata: { fileIndex: 80, itemIndex: 97 } },
+  { id: 98, value: 0.006770968517117781, label: "Item 98", metadata: { fileIndex: 80, itemIndex: 98 } },
+  { id: 99, value: 0.43428020472933215, label: "Item 99", metadata: { fileIndex: 80, itemIndex: 99 } },
 ];
 
 export const TRANSFORMATION_MAP_80 = new Map([

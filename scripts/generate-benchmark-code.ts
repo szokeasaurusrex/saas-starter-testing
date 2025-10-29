@@ -27,11 +27,11 @@ const LARGE_DEPS = [
   'animejs',
 ];
 
-function generateTypeScriptInterfaces(count: number): string {
+function generateTypeScriptInterfaces(count: number, fileIndex: number): string {
   let code = '';
   for (let i = 0; i < count; i++) {
     code += `
-export interface DataModel${i} {
+export interface DataModel${fileIndex}_${i} {
   id: string;
   name: string;
   value: number;
@@ -299,7 +299,7 @@ function generateFileContent(fileIndex: number): string {
 // This file is generated for sourcemap benchmarking purposes
 import React from 'react';
 
-${generateTypeScriptInterfaces(50)}
+${generateTypeScriptInterfaces(50, fileIndex)}
 
 ${generateConstants(fileIndex)}
 
